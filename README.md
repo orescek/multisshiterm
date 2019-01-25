@@ -3,8 +3,8 @@
 Does not install anything or give machine any special previleges.
 
 ## installation
-copy  itemmssh.scpt to ~/Library/Application Support/iTerm2/Scripts 
-```cp itemmssh.scpt ~/Library/Application\ Support/iTerm2/Scripts```
+copy  itermmssh.scpt to ~/Library/Application Support/iTerm2/Scripts 
+```cp itermmssh.scpt ~/Library/Application\ Support/iTerm2/Scripts```
 
 copy terminal.ini to your home folder(sample imput is added)
 

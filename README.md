@@ -1,9 +1,14 @@
 # Multi ssh for iterm2
 
-Does not install anything or give machine any special previleges.
+AppleScript for launching custom arrangement of the windows for Iterm 
+You can setup different profiles  for each environment that you need.
 
-## installation
+:bangbang: Script presume that you have iTerm installed under /Applications with name iTerm.app
+
+
+## Instalation
 copy  itermmssh.scpt to ~/Library/Application Support/iTerm2/Scripts 
+
 ```cp itermmssh.scpt ~/Library/Application\ Support/iTerm2/Scripts```
 
 copy terminal.ini to your home folder(sample imput is added)
@@ -15,7 +20,7 @@ copy terminal.ini to your home folder(sample imput is added)
 ### setup common variables
 under section [common] are for now only two settings
 columns=<number> . --> represents number of columns, rows are calculated depending on number of items in profile
-delay=< seconds > --> delay of the execution of the nex delay
+delay=< seconds > --> delay of the execution of the next delay
 ### setup sessions
 in each profile you can set up
 name and command

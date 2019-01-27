@@ -1,6 +1,7 @@
 # Multi ssh for iterm2
 
-AppleScript for launching custom arrangement of the windows for Iterm 
+AppleScript for launching custom arrangement of the windows for iTerm. 
+
 You can setup different profiles  for each environment that you need.
 
 :bangbang: Script presume that you have iTerm installed under /Applications with name iTerm.app

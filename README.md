@@ -8,23 +8,27 @@ You can setup different profiles  for each environment that you need.
 
 
 ## Instalation
-copy  itermmssh.scpt to ~/Library/Application Support/iTerm2/Scripts 
+Copy  itermmssh.scpt to:  ~/Library/Application Support/iTerm2/Scripts 
 
 ```cp itermmssh.scpt ~/Library/Application\ Support/iTerm2/Scripts```
 
-copy terminal.ini to your home folder(sample imput is added)
+Copy terminal.ini to your home folder(in file is sample input):
 
 ```cp terminal.ini ~/```
 
-## edit config file - terminal.ini
+## Edit config file - terminal.ini
 
-### setup common variables
+### Setup common variables
 under section [common] are for now only two settings
 columns=<number> . --> represents number of columns, rows are calculated depending on number of items in profile
 delay=< seconds > --> delay of the execution of the next delay
-### setup sessions
-in each profile you can set up
-name and command
+### setup profiles
+Each profile should start with [ and end with ] 
 
-Example: machine1=ssh root@mybestmachine
+Example: ```[Some profile name]```
 
+After defining profile name you can setup your profile with name of the window and what should it do
+
+Example: ```machine1=ssh root@mybestmachine```
+
+You can override common settings for each profile.
